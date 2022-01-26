@@ -3,8 +3,6 @@ import './TodayTab.css';
 import axios from "axios";
 import WeatherDetail from "../../components/weatherDetail/WeatherDetail";
 
-const apiKey = 'e83828f7bbfffd7654ad4c1b8cf1b978';
-
 function TodayTab({coordinates}) {
     const [forecast, setForecast] = useState([])
     const [error, setError] = useState(false)

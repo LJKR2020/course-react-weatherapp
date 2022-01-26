@@ -4,8 +4,6 @@ import axios from 'axios';
 import kelvinToCelsius from "../../helpers/kelvinToCelsius";
 import createDateString from "../../helpers/createDateString";
 
-const apiKey = 'e83828f7bbfffd7654ad4c1b8cf1b978';
-
 function ForecastTab({coordinates}) {
     const [forecasts, setForecasts] = useState([]);
     const [error, toggleError] = useState(false);

@@ -9,8 +9,6 @@ import axios from 'axios';
 import ForecastTab from "./pages/forecastTab/ForecastTab";
 import kelvinToCelsius from "./helpers/kelvinToCelsius";
 
-const apiKey = 'e83828f7bbfffd7654ad4c1b8cf1b978';
-
 function App() {
     const [weatherData, setWeatherData] = useState({});
     const [location, setLocation] = useState('');
